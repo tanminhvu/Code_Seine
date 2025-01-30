@@ -15,7 +15,7 @@ TF_ENABLE_ONEDNN_OPTS=0
 
 start_time = time.time()
 
-# Load your data from the CSV file
+# Load data from the CSV file
 data = pd.read_csv('combine_data_climat_next_02.csv')
 
 # Reverse the data along the rows
